@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.4",
+    "jsonwebtoken": "^9.0.0",
+    "uuid": "^9.0.0"
+  },
+  "name": "@sparty182020/jwtgenerator",
+  "version": "1.0.0",
+  "description": "JSON Web Token NPX generator",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparty182020/jwt-gen.git"
+  },
+  "keywords": [
+    "JWT",
+    "JSONWebToken",
+    "Cryptography",
+    "Token"
+  ],
+  "author": "sparty182020",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/sparty182020/jwt-gen/issues"
+  },
+  "homepage": "https://github.com/sparty182020/jwt-gen#readme"
+}
