@@ -32,7 +32,7 @@ export async function generateToken(userData, signature) {
 
 export async function verifyToken(token, signature) {
     let valid;
-    const output = await verify(
+    await verify(
         token,
         signature,
         {
@@ -46,7 +46,4 @@ export async function verifyToken(token, signature) {
     return valid;
 }
 
-export async function decodeToken(token) {
-    // @ts-ignore
-    return decode(token);
-}
+export const decodeToken = (token) => decode(token);
